@@ -73,7 +73,7 @@ public class Main {
                 char secondChar = word.charAt(i);
                 char lastChar = word.charAt(word.length() - 1);
                 decryptWord += lastChar;
-                if (i + 1 < word.length() - 1) {
+                if (i + 1 < word.length() - 1){
                     decryptWord += word.substring(i + 1, word.length() - 1);
                 }
                 decryptWord += secondChar;
